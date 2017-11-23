@@ -15,3 +15,11 @@ h1 {
   font-size: 22pt;
   text-transform: uppercase;
 }
+
+.cold {
+  background: #ddfdfd;
+}
+
+.warm {
+  background: #fddddd;
+}

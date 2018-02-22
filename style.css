@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body {
+  background: #f8f8f8;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 70px;
+  margin-bottom: 30px;
+  margin-top: -100px;
+}
+
+.weather-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#temperature {
+  font-weight: 300;
+  font-size: 140px;
+  letter-spacing: -5px;
+  margin: 0;
+  padding: 0;
+}
+
+#city {
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+}
+
+#type {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.cold {
+  background: linear-gradient(to bottom right, rgb(98,97,122), rgb(95,202,203 ));
+}
+
+.warm {
+  background: linear-gradient(to bottom right, rgb(98,97,122), rgb(216,120,138 ));
+}
